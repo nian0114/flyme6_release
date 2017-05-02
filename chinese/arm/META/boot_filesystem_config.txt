@@ -8,6 +8,7 @@ ueventd.rc 0 0 644 selabel=u:object_r:rootfs:s0 capabilities=0x0
 sepolicy 0 0 644 selabel=u:object_r:rootfs:s0 capabilities=0x0
 init.zygote32.rc 0 2000 750 selabel=u:object_r:rootfs:s0 capabilities=0x0
 system 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+init.flyme.rc 0 2000 750 selabel=u:object_r:rootfs:s0 capabilities=0x0
 oem 0 0 755 selabel=u:object_r:oemfs:s0 capabilities=0x0
 file_contexts 0 0 644 selabel=u:object_r:rootfs:s0 capabilities=0x0
 seapp_contexts 0 0 644 selabel=u:object_r:rootfs:s0 capabilities=0x0
