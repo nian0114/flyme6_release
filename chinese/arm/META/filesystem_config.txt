@@ -2,7 +2,6 @@ system 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/xbin 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/xbin/wlutil 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/xbin/dexdump 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/recovery-from-boot.p 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/com.google.widevine.software.drm.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/flyme-res 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1191,7 +1190,6 @@ system/bin/app_process32 0 2000 755 selabel=u:object_r:zygote_exec:s0 capabiliti
 system/bin/qmuxd 1001 2000 700 selabel=u:object_r:qmux_exec:s0 capabilities=0x1000000000
 system/bin/ifconfig 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/route 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/bin/install-recovery.sh 0 0 750 selabel=u:object_r:install_recovery_exec:s0 capabilities=0x0
 system/bin/surfaceflinger 0 2000 755 selabel=u:object_r:surfaceflinger_exec:s0 capabilities=0x0
 system/bin/iptables 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/sh 0 2000 755 selabel=u:object_r:shell_exec:s0 capabilities=0x0
